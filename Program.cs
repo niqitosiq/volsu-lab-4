@@ -28,7 +28,7 @@ class Lab_4
   {
     string[] lines = System.IO.File.ReadAllLines(@"lab42.txt");
 
-    Regex myReg = new Regex(@"([A-Z])([a-z]+)?");
+    Regex myReg = new Regex(@"([A-Z]+)");
 
     Console.WriteLine("------------ Found content ------------");
     foreach (string line in lines)
